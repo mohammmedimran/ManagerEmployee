@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+}
+
+  .th-center{
+    text-align: center;
+}
+.th-left{
+    text-align: left;
+}
+.th-right{
+    text-align: right;
+}
+#add{
+    margin-left:3%;
+}

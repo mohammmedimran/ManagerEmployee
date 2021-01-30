@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+div.container{
+    margin:0px 40px;
+}
+.fill-remaining-space{
+    flex:1 1 auto;
+}
+form.normal-form{
+    margin:10px;
+}
+.controles-container{
+    width:70%;
+    padding:5%;
+margin:100%;
+    }
+.controles-container> *{
+    width:200%;
+    
+    }
+    .add-bottom-padding{
+        padding-bottom:10px;
+    }
+    .mat-form-field {
+        width:100%;
+        padding: 5px;
+        margin-left:5%;
+        float:left;
+    }

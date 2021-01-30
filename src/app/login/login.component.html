@@ -1,0 +1,20 @@
+<div class="loginbox">
+        <h1>Login Here
+          <div>
+            <p>username:</p>
+            <form [formGroup]="service.form" class="normal-form">
+            <input [(ngModel)]="name" formControlName="userName" type="text" placeholder="name"/>
+            <mat-error *ngIf="service.form.controls['userName'].errors?.required">
+              please enter user name</mat-error>
+           
+            <p>password:</p>
+           <input [(ngModel)]="password" formControlName="password" type="password" placeholder="password"/>
+           <mat-error *ngIf="service.form.controls['password'].errors?.required">
+          please enter password</mat-error>
+           <input type="submit" (click)="login()">
+          </form>
+          </div>
+          <div routerLink="/Register">Please Register Here</div>
+         
+        </h1>
+        </div>

@@ -1,0 +1,28 @@
+<p>register works!</p>
+
+<div class="loginbox">
+    <h1>please Register Here
+      <div>
+        <p>firstName:</p>
+        <input [(ngModel)]="firstName" type="text" placeholder="firstName"/>
+        <p>lastName:</p>
+        <input [(ngModel)]="lastName" type="text" placeholder="lastName"/>
+       <p>password:</p>
+       <input [(ngModel)]="password" type="password" placeholder="password"/>
+ 
+       <p>address</p>
+       <input [(ngModel)]="address" type="text" placeholder="address"/>
+      <p>DOB:</p>
+      <input [(ngModel)]="dob" type="date" placeholder="dob"/>
+      
+       <p>Email:</p>
+       <input [(ngModel)]="email" type="text" placeholder="Email"/>
+       <p>Company:</p>
+       <input [(ngModel)]="company" type="text" placeholder="company"/>
+      </div>
+
+      <input type="submit" (click)="register()">
+      <div style="color:black" routerLink="/login"> Login</div>
+     
+    </h1>
+    </div>
